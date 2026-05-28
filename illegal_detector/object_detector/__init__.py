@@ -1,0 +1,1 @@
+from .model_oop import Object_detector
