@@ -1,22 +1,22 @@
-import torch
 from PIL import Image, ImageDraw
-from .utils import choose_most_confi, crop
+from .utils import crop
 
 class Object_detector: 
-    def __init__(self):
+    def __init__(self, model_id="IDEA-Research/grounding-dino-tiny"):
         import torch
         from PIL import Image
         from transformers import AutoProcessor, AutoModelForZeroShotObjectDetection
-
-        model_id = "IDEA-Research/grounding-dino-tiny"
 
         self.processor = AutoProcessor.from_pretrained(model_id)
         self.model = AutoModelForZeroShotObjectDetection.from_pretrained(
             model_id,
             device_map="auto"
         )
+        self.result = None
 
-    def detect(self, image_path, text_labels):
+    def detect(self, image_path, text_labels, threshold=0.35, text_threshold=0.25):
+        import torch
+
         image = Image.open(image_path).convert("RGB")
 
         inputs = self.processor(
@@ -31,20 +31,23 @@ class Object_detector:
         results = self.processor.post_process_grounded_object_detection(
             outputs,
             inputs.input_ids,
-            threshold=0.4,
-            text_threshold=0.3,
+            threshold=threshold,
+            text_threshold=text_threshold,
             target_sizes=[image.size[::-1]]
         )
-        self.result = choose_most_confi(results)
-        print(self.result["boxes"])
-        cropped_object = crop(image, self.result["boxes"][0])
-        cropped_object.show()
-        
-        # cropped_object: cropped detected object
-        # self.result: dict with keys "boxes", "labels", "scores" of the detected object
-        return cropped_object, self.result
+        self.result = results[0]
+
+        cropped_objects = [
+            crop(image, box)
+            for box in self.result["boxes"]
+        ]
+
+        return cropped_objects, self.result
     
-    def draw_boxes(self, image_path):
+    def draw_boxes(self, image_path, output_path=None, show=False):
+        if self.result is None:
+            raise RuntimeError("No detection result found. Call detect() before draw_boxes().")
+
         image = Image.open(image_path).convert("RGB")
         draw = ImageDraw.Draw(image)
 
@@ -58,5 +61,8 @@ class Object_detector:
             draw.rectangle([x1, y1, x2, y2], outline="red", width=3)
             draw.text((x1, y1), f"{label}: {score:.2f}", fill="red")
 
-        image.show()
-        
+        if output_path:
+            image.save(output_path)
+        if show:
+            image.show()
+        return image
