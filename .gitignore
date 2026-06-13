@@ -27,3 +27,5 @@ dataset/
 *.agents
 *.codex
 
+# data 
+data/

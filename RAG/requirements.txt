@@ -1,0 +1,16 @@
+apify-fingerprint-datapoints==0.13.0
+browserforge==1.2.4
+click==8.4.1
+cssselect==1.4.0
+greenlet==3.5.1
+lxml==6.1.1
+numpy==2.2.6
+orjson==3.11.9
+pgvector==0.4.2
+psycopg2-binary==2.9.12
+python-dotenv==1.2.2
+scrapling==0.4.8
+sqlalchemy==2.0.50
+tld==0.13.2
+typing-extensions==4.15.0
+w3lib==2.4.1

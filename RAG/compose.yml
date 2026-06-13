@@ -1,0 +1,17 @@
+services:
+  db:
+    # Sử dụng image PostgreSQL đã tích hợp sẵn pgvector
+    image: pgvector/pgvector:pg16
+    container_name: legal_vector_db
+    restart: always
+    environment:
+      POSTGRES_USER: user_khoi
+      POSTGRES_PASSWORD: password_khoi
+      POSTGRES_DB: legal_rag_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data 
+
+volumes:
+  pgdata:
