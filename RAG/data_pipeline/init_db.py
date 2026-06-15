@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), '..', '.env'))
 
 def init_database():
-    print("🔄 Đang kết nối đến PostgreSQL...")
+    print("Đang kết nối đến PostgreSQL...")
     try:
         # Kết nối DB
         conn = psycopg2.connect(

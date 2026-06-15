@@ -12,7 +12,7 @@ def process_bronze_to_silver():
     os.makedirs(silver_dir, exist_ok=True)
     silver_path = os.path.join(silver_dir, 'silver_168_2024.json')
 
-    print("🔄 Bắt đầu bóc tách dữ liệu từ Tầng Bronze sang Tầng Silver...")
+    print("Bắt đầu bóc tách dữ liệu từ Tầng Bronze sang Tầng Silver...")
 
     # 2. Đọc file HTML thô
     try:
@@ -72,8 +72,8 @@ def process_bronze_to_silver():
     with open(silver_path, 'w', encoding='utf-8') as f:
         json.dump(chunks, f, ensure_ascii=False, indent=4)
 
-    print(f"✅ Bóc tách thành công! Đã tạo ra {len(chunks)} Chunks luật.")
-    print(f"📁 Dữ liệu sạch được lưu tại: {silver_path}")
+    print(f"Bóc tách thành công! Đã tạo ra {len(chunks)} Chunks luật.")
+    print(f"Dữ liệu sạch được lưu tại: {silver_path}")
 
 if __name__ == '__main__':
     process_bronze_to_silver()

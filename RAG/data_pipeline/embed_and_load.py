@@ -2,11 +2,12 @@ import os
 import json
 import psycopg2
 from google import genai
+import time
 from google.genai import types
 from dotenv import load_dotenv
 
 def process_silver_to_gold():
-    print("🔄 Bắt đầu tiến trình Nhúng Vector (Chế độ Nạp Tăng Cường)...")
+    print("Bắt đầu tiến trình Nhúng Vector (Chế độ Nạp Tăng Cường)...")
     
     base_dir = os.path.dirname(__file__)
     env_path = os.path.join(base_dir, '..', '.env')
@@ -31,10 +32,10 @@ def process_silver_to_gold():
     print(f"📦 Đã tìm thấy {len(existing_ids)} chunks trong Database. Sẽ bỏ qua các chunk này!")
 
     chunks_to_process = [c for c in chunks if c["id"] not in existing_ids]
-    print(f"🚀 Chỉ còn {len(chunks_to_process)} chunks cần xử lý...")
+    print(f"Chỉ còn {len(chunks_to_process)} chunks cần xử lý...")
     
     if len(chunks_to_process) == 0:
-        print("✅ Mọi dữ liệu đã được nạp đầy đủ. Không cần chạy thêm!")
+        print("Mọi dữ liệu đã được nạp đầy đủ. Không cần chạy thêm!")
         return
 
     success_count = 0
@@ -67,17 +68,19 @@ def process_silver_to_gold():
                 conn.commit() # Commit ngay từng đợt nhỏ để an toàn
                 
         except Exception as e:
-            print(f"❌ Lỗi tại chunk {chunk['id']}: {e}")
-            conn.rollback() 
-            # Nếu lỗi Quota (429), dừng luôn chương trình để không spam API
-            if "429" in str(e):
-                print("⚠️ Đã hết Quota Google! Vui lòng quay lại vào ngày mai (hoặc dùng API Key khác).")
-                break
-            continue
+                    print(f"Lỗi tại chunk {chunk['id']}: {e}")
+                    conn.rollback() 
+                    if "429" in str(e):
+                        print("Bị Google tuýt còi vì quá tốc độ (100 req/phút). Đang tự động ngủ 60 giây để chờ hồi Quota...")
+                        time.sleep(60) # Tự động ngủ 1 phút
+                        print("Đã hồi sức! Chuẩn bị chạy tiếp...")
+                        # Tiếp tục vòng lặp
+                        continue
+                    continue
 
     cursor.close()
     conn.close()
-    print(f"✅ HOÀN TẤT ĐỢT NÀY! Đã nạp thêm {success_count} vector.")
+    print(f"HOÀN TẤT ĐỢT NÀY! Đã nạp thêm {success_count} vector.")
 
 if __name__ == '__main__':
     process_silver_to_gold()

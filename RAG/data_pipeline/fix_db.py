@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), '..', '.env'))
 
 def fix_schema():
-    print("🛠️ Đang sửa lỗi cấu trúc bảng luat_giao_thong...")
+    print("Đang sửa lỗi cấu trúc bảng luat_giao_thong...")
     try:
         conn = psycopg2.connect(
             dbname=os.getenv("DB_NAME"),
