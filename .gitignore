@@ -26,3 +26,5 @@ outputs/
 *.agents
 *.codex
 
+# data 
+data/
