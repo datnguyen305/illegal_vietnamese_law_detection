@@ -1,4 +1,4 @@
-def crop(img, box, padding=100):
+def crop(img, box, padding=224):
     x1, y1, x2, y2 = box
 
     x1 = max(0, int(x1 - padding))

@@ -1,0 +1,27 @@
+{
+  "notes": "Example geometry for one fixed camera/image layout. Coordinates are pixel positions in the input image.",
+  "lanes": [
+    {
+      "id": "motorbike_lane",
+      "allowed_vehicle_types": ["motorbike", "bicycle"],
+      "polygon": [[0, 420], [260, 400], [300, 720], [0, 720]]
+    },
+    {
+      "id": "car_lane",
+      "allowed_vehicle_types": ["car", "bus", "truck"],
+      "polygon": [[260, 400], [960, 380], [960, 720], [300, 720]]
+    }
+  ],
+  "no_parking_zones": [
+    {
+      "id": "right_roadside_no_parking",
+      "polygon": [[760, 360], [960, 360], [960, 720], [820, 720]]
+    }
+  ],
+  "stop_lines": [
+    {
+      "id": "intersection_stop_line",
+      "points": [[220, 455], [900, 455]]
+    }
+  ]
+}

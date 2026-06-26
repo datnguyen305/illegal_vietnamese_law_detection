@@ -8,6 +8,7 @@ __pycache__/
 
 # Virtual environment
 venv/
+.env
 .env/
 
 # Jupyter
@@ -17,7 +18,11 @@ venv/
 *.pt
 *.pth
 *.ckpt
+outputs/
 
 # OS files
 .DS_Store
-data/
+
+*.agents
+*.codex
+
