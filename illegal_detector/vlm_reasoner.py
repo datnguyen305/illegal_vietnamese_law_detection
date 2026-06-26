@@ -8,6 +8,8 @@ class QwenVLReasoner:
         max_new_tokens: int = 512,
         torch_dtype: str = "auto",
         device_map: str = "auto",
+        min_pixels: Optional[int] = None,
+        max_pixels: Optional[int] = None,
     ):
         self.model_id = model_id
         self.max_new_tokens = max_new_tokens
@@ -27,7 +29,13 @@ class QwenVLReasoner:
             dtype = getattr(torch, torch_dtype)
 
         self.process_vision_info = process_vision_info
-        self.processor = AutoProcessor.from_pretrained(model_id)
+        processor_kwargs = {}
+        if min_pixels is not None:
+            processor_kwargs["min_pixels"] = min_pixels
+        if max_pixels is not None:
+            processor_kwargs["max_pixels"] = max_pixels
+
+        self.processor = AutoProcessor.from_pretrained(model_id, **processor_kwargs)
         self.model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
             model_id,
             torch_dtype=dtype,
