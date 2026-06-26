@@ -1,0 +1,1262 @@
+[
+    {
+        "image_id": "22",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "22",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "13",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "13",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "2",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "2",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "7",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "7",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "9",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "9",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "12",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "12",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "20",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "20",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "17",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "17",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "10",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "10",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "8",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "8",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "26",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "26",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "11",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "11",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "21",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "21",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "15",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "15",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "5",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "5",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "18",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "18",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "27",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "27",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "4",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "4",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "1",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "1",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "19",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "19",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "25",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "25",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "24",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "24",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "3",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "3",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "16",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "16",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "14",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "14",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "6",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "6",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "23",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "23",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "2",
+        "type": "traffic_light",
+        "diversity": "reasoning",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "2",
+        "type": "traffic_light",
+        "diversity": "reasoning",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "7",
+        "type": "traffic_light",
+        "diversity": "reasoning",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "7",
+        "type": "traffic_light",
+        "diversity": "reasoning",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "5",
+        "type": "traffic_light",
+        "diversity": "reasoning",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "5",
+        "type": "traffic_light",
+        "diversity": "reasoning",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "4",
+        "type": "traffic_light",
+        "diversity": "reasoning",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "4",
+        "type": "traffic_light",
+        "diversity": "reasoning",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "1",
+        "type": "traffic_light",
+        "diversity": "reasoning",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "1",
+        "type": "traffic_light",
+        "diversity": "reasoning",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "3",
+        "type": "traffic_light",
+        "diversity": "reasoning",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "3",
+        "type": "traffic_light",
+        "diversity": "reasoning",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "6",
+        "type": "traffic_light",
+        "diversity": "reasoning",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "6",
+        "type": "traffic_light",
+        "diversity": "reasoning",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "2",
+        "type": "traffic_light",
+        "diversity": null,
+        "label": "not_violate",
+        "prompt": "a vehicle parked in a designated parking area"
+    },
+    {
+        "image_id": "2",
+        "type": "traffic_light",
+        "diversity": null,
+        "label": "not_violate",
+        "prompt": "a car legally parked in a parking lot"
+    },
+    {
+        "image_id": "1",
+        "type": "traffic_light",
+        "diversity": null,
+        "label": "not_violate",
+        "prompt": "a vehicle parked in a designated parking area"
+    },
+    {
+        "image_id": "1",
+        "type": "traffic_light",
+        "diversity": null,
+        "label": "not_violate",
+        "prompt": "a car legally parked in a parking lot"
+    },
+    {
+        "image_id": "3",
+        "type": "traffic_light",
+        "diversity": null,
+        "label": "not_violate",
+        "prompt": "a vehicle parked in a designated parking area"
+    },
+    {
+        "image_id": "3",
+        "type": "traffic_light",
+        "diversity": null,
+        "label": "not_violate",
+        "prompt": "a car legally parked in a parking lot"
+    },
+    {
+        "image_id": "13",
+        "type": "parking",
+        "diversity": null,
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "13",
+        "type": "parking",
+        "diversity": null,
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "2",
+        "type": "parking",
+        "diversity": null,
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "2",
+        "type": "parking",
+        "diversity": null,
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "7",
+        "type": "parking",
+        "diversity": null,
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "7",
+        "type": "parking",
+        "diversity": null,
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "9",
+        "type": "parking",
+        "diversity": null,
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "9",
+        "type": "parking",
+        "diversity": null,
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "12",
+        "type": "parking",
+        "diversity": null,
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "12",
+        "type": "parking",
+        "diversity": null,
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "10",
+        "type": "parking",
+        "diversity": null,
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "10",
+        "type": "parking",
+        "diversity": null,
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "8",
+        "type": "parking",
+        "diversity": null,
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "8",
+        "type": "parking",
+        "diversity": null,
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "11",
+        "type": "parking",
+        "diversity": null,
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "11",
+        "type": "parking",
+        "diversity": null,
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "5",
+        "type": "parking",
+        "diversity": null,
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "5",
+        "type": "parking",
+        "diversity": null,
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "4",
+        "type": "parking",
+        "diversity": null,
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "4",
+        "type": "parking",
+        "diversity": null,
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "1",
+        "type": "parking",
+        "diversity": null,
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "1",
+        "type": "parking",
+        "diversity": null,
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "3",
+        "type": "parking",
+        "diversity": null,
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "3",
+        "type": "parking",
+        "diversity": null,
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "6",
+        "type": "parking",
+        "diversity": null,
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "6",
+        "type": "parking",
+        "diversity": null,
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "2",
+        "type": "parking",
+        "diversity": null,
+        "label": "not_violate",
+        "prompt": "a vehicle parked in a designated parking area"
+    },
+    {
+        "image_id": "2",
+        "type": "parking",
+        "diversity": null,
+        "label": "not_violate",
+        "prompt": "a car legally parked in a parking lot"
+    },
+    {
+        "image_id": "1",
+        "type": "parking",
+        "diversity": null,
+        "label": "not_violate",
+        "prompt": "a vehicle parked in a designated parking area"
+    },
+    {
+        "image_id": "1",
+        "type": "parking",
+        "diversity": null,
+        "label": "not_violate",
+        "prompt": "a car legally parked in a parking lot"
+    },
+    {
+        "image_id": "3",
+        "type": "parking",
+        "diversity": null,
+        "label": "not_violate",
+        "prompt": "a vehicle parked in a designated parking area"
+    },
+    {
+        "image_id": "3",
+        "type": "parking",
+        "diversity": null,
+        "label": "not_violate",
+        "prompt": "a car legally parked in a parking lot"
+    },
+    {
+        "image_id": "22",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "22",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "13",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "13",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "2",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "2",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "7",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "7",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "9",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "9",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "12",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "12",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "20",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "20",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "17",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "17",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "10",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "10",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "8",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "8",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "26",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "26",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "11",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "11",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "21",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "21",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "15",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "15",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "5",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "5",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "18",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "18",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "27",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "27",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "4",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "4",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "1",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "1",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "19",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "19",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "25",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "25",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "24",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "24",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "3",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "3",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "16",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "16",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "14",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "14",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "6",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "6",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "23",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "23",
+        "type": "traffic_light",
+        "diversity": "have_traffic_light",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "2",
+        "type": "traffic_light",
+        "diversity": "reasoning",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "2",
+        "type": "traffic_light",
+        "diversity": "reasoning",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "7",
+        "type": "traffic_light",
+        "diversity": "reasoning",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "7",
+        "type": "traffic_light",
+        "diversity": "reasoning",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "5",
+        "type": "traffic_light",
+        "diversity": "reasoning",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "5",
+        "type": "traffic_light",
+        "diversity": "reasoning",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "4",
+        "type": "traffic_light",
+        "diversity": "reasoning",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "4",
+        "type": "traffic_light",
+        "diversity": "reasoning",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "1",
+        "type": "traffic_light",
+        "diversity": "reasoning",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "1",
+        "type": "traffic_light",
+        "diversity": "reasoning",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "3",
+        "type": "traffic_light",
+        "diversity": "reasoning",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "3",
+        "type": "traffic_light",
+        "diversity": "reasoning",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "6",
+        "type": "traffic_light",
+        "diversity": "reasoning",
+        "label": "violate",
+        "prompt": "an illegally parked vehicle on the roadside"
+    },
+    {
+        "image_id": "6",
+        "type": "traffic_light",
+        "diversity": "reasoning",
+        "label": "violate",
+        "prompt": "a car stopped where parking is prohibited"
+    },
+    {
+        "image_id": "2",
+        "type": "traffic_light",
+        "diversity": null,
+        "label": "not_violate",
+        "prompt": "a vehicle parked in a designated parking area"
+    },
+    {
+        "image_id": "2",
+        "type": "traffic_light",
+        "diversity": null,
+        "label": "not_violate",
+        "prompt": "a car legally parked in a parking lot"
+    },
+    {
+        "image_id": "1",
+        "type": "traffic_light",
+        "diversity": null,
+        "label": "not_violate",
+        "prompt": "a vehicle parked in a designated parking area"
+    },
+    {
+        "image_id": "1",
+        "type": "traffic_light",
+        "diversity": null,
+        "label": "not_violate",
+        "prompt": "a car legally parked in a parking lot"
+    },
+    {
+        "image_id": "3",
+        "type": "traffic_light",
+        "diversity": null,
+        "label": "not_violate",
+        "prompt": "a vehicle parked in a designated parking area"
+    },
+    {
+        "image_id": "3",
+        "type": "traffic_light",
+        "diversity": null,
+        "label": "not_violate",
+        "prompt": "a car legally parked in a parking lot"
+    }
+]
